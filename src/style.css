@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+
+  background-image: url("./assets/weather-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

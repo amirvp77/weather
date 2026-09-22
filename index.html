@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <title>weatherx</title>
+  </head>
+
+  <body>
+
+    <h1
+      class="text-center mt-5 text-5xl text-white font-bold max-md:text-3xl max-md:px-4"
+    >
+      weather app
+    </h1>
+
+    <p
+      class="text-center text-3xl text-white mt-5 max-md:text-lg max-md:px-5"
+    >
+      Check the current weather and conditions of any city instantly.
+    </p>
+
+    <form
+      class="text-center mt-10 flex flex-col justify-center items-center gap-y-3 max-md:px-4"
+    >
+
+      <input
+        class="bg-white text-2xl px-5 rounded-full w-[50%] h-[50] my-3 max-md:w-full max-md:text-lg"
+        placeholder="Enter the name of the city ..."
+        type="text"
+      />
+
+      <button
+        class="capitalize bg-[#18a8dc] py-3 px-10 rounded-2xl text-white active:bg-[#075e6f] cursor-pointer active:shadow-2xl text-2xl border-2 border-[#BDC3C7] max-md:text-lg max-md:px-8"
+        type="submit"
+      >
+        submit
+      </button>
+
+    </form>
+
+    <div id="app" class="max-md:px-4"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
