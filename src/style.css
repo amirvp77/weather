@@ -11,3 +11,139 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.weather-sun {
+  display: inline-block;
+  animation: sunAnimation 3s ease-in-out infinite;
+}
+
+@keyframes sunAnimation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(15deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.weather-cloud {
+  display: inline-block;
+  animation: cloudAnimation 3s ease-in-out infinite;
+}
+
+@keyframes cloudAnimation {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.weather-rain {
+  display: inline-block;
+  animation: rainAnimation 0.8s ease-in-out infinite;
+}
+
+@keyframes rainAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.weather-snow {
+  display: inline-block;
+  animation: snowAnimation 2s ease-in-out infinite;
+}
+
+@keyframes snowAnimation {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(8px) rotate(10deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.weather-thunder {
+  display: inline-block;
+  animation: thunderAnimation 0.7s ease-in-out infinite;
+}
+
+@keyframes thunderAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.15);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.weather-mist {
+  display: inline-block;
+  animation: mistAnimation 3s ease-in-out infinite;
+}
+
+@keyframes mistAnimation {
+  0% {
+    transform: translateX(0);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: translateX(8px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 0.7;
+  }
+}
+
+.weather-default {
+  display: inline-block;
+  animation: defaultAnimation 2s ease-in-out infinite;
+}
+
+@keyframes defaultAnimation {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
