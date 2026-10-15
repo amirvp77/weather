@@ -1,50 +1,54 @@
 # 🌤️ Weather App
 
-A modern and responsive weather application built with JavaScript that allows users to search for a city and view its current weather information.
+یک اپلیکیشن هواشناسی مدرن و واکنش‌گرا که با استفاده از JavaScript ساخته شده و به کاربران امکان می‌دهد با جست‌وجوی نام شهر، اطلاعات آب‌وهوای فعلی آن را مشاهده کنند.
 
-## 🚀 Live Demo
+## 🚀 پیش‌نمایش آنلاین
 
-[View Live Demo](https://weather-rosy-phi.vercel.app/)
+[مشاهده پروژه Weather App](https://weather-rosy-phi.vercel.app/)
 
-## ✨ Features
+## ✨ امکانات پروژه
 
-* 🔍 Search weather by city name
-* 🌡️ Current temperature
-* 🌤️ Dynamic weather icons
-* ✨ Animated weather icons
-* 💧 Humidity
-* 🌡️ Feels-like temperature
-* ☁️ Weather condition and description
-* 📱 Responsive design
-* ⚡ Real-time weather data
+- 🔍 جست‌وجوی وضعیت آب‌وهوا بر اساس نام شهر
+- 🌡️ نمایش دمای فعلی
+- 🌤️ نمایش آیکون‌های متناسب با وضعیت آب‌وهوا
+- ✨ آیکون‌های متحرک آب‌وهوا
+- 💧 نمایش میزان رطوبت
+- 🌡️ نمایش دمای احساسی
+- ☁️ نمایش وضعیت و توضیحات آب‌وهوا
+- 📱 طراحی واکنش‌گرا برای موبایل و دسکتاپ
+- ⚡ دریافت اطلاعات به‌روز آب‌وهوا از API
 
-## 🛠️ Technologies
+## 🛠️ تکنولوژی‌های استفاده‌شده
 
-* HTML
-* CSS
-* JavaScript
-* Tailwind CSS
-* Vite
-* OpenWeather API
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
+- Vite
+- OpenWeather API
 
-## 🌦️ Weather Conditions
+## 🌦️ وضعیت‌های آب‌وهوایی پشتیبانی‌شده
 
-* ☀️ Clear
-* ☁️ Clouds
-* 🌧️ Rain
-* ❄️ Snow
-* ⛈️ Thunderstorm
-* 🌫️ Mist / Fog
+- ☀️ آسمان صاف
+- ☁️ هوای ابری
+- 🌧️ بارانی
+- ❄️ برفی
+- ⛈️ طوفان همراه با رعدوبرق
+- 🌫️ مه و غبار
 
-## 🚀 Installation
+## 🚀 راه‌اندازی پروژه
+
+### ۱. دریافت پروژه از گیت‌هاب
 
 ```bash
 git clone https://github.com/amirvp77/weather.git
-cd weather
-npm install
-npm run dev
 ```
 
-## 📄 License
+### ۲. ورود به پوشه پروژه
 
-This project was created for learning and practice purposes.
+```bash
+cd weather
+```
+
+### ۳. نصب وابستگی‌ها
+
